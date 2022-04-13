@@ -19,30 +19,32 @@ Crie a tela abaixo utilizando somente HTML e CSS. Faça o mais parecido possíve
 
 ### Questão 2) Desenvolva uma função *em javascript* para retornar a sequência de Fibonacci
 A sequência de Fibonacci é composta por uma sucessão de números descrita pelo matemático Leonardo de Pisa (Exemplo: 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233). A fórmula utilizada é: ```fn = fn - 1 + fn - 2```
+
 Você deve criar uma função em js para receber como entrada a quantidade de números que deverá ser devolvido da sequência e devolver como saída a sequência em si. Exemplo: entrada 3 e saída 0, 1, 1; entrada 5 e saída 0, 1, 1, 2, 3.
 
 ### Questão 3) Desenvolva *em python* endpoints REST para gerir uma conta corrente
 Neste exercício deve ser criado uma api REST para permtir realizar operações básicas de cadastro, debito, credito e saldo da conta corrente.
+
 Siga as orientações abaixo:
 
 ##### Cadastrar conta corrente
-URL: POST /contas/
-ENTRADA: ```{ "banco": 1, "agencia": 1738, "conta": 10789 }```
-SAIDA: 201 ```{ "id": 1}```
+- URL: POST /contas/
+- ENTRADA: ```{ "banco": 1, "agencia": 1738, "conta": 10789 }```
+- SAIDA: 201 ```{ "id": 1}```
 
 ##### Créditar na conta corrente
-URL: PUT /contas/<id>/credito
-ENTRADA: ```{ "valor": 10.75 }```
-SAIDA: 200
+- URL: PUT /contas/<id>/credito
+- ENTRADA: ```{ "valor": 10.75 }```
+- SAIDA: 200
 
 ##### Débitar na conta corrente
-URL: PUT /contas/<id>/debito
-ENTRADA: ```{ "valor": 9.75 }```
-SAIDA: 200
+- URL: PUT /contas/<id>/debito
+- ENTRADA: ```{ "valor": 9.75 }```
+- SAIDA: 200
 
 ##### Consultar o saldo da conta corrente
-URL: GET /contas/<id>/saldo
-SAIDA: 200 ```{ "valor": 1.0}```
+- URL: GET /contas/<id>/saldo
+- SAIDA: 200 ```{ "valor": 1.0}```
   
 Atenção aos pontos abaixo: 
  - É permitido utilizar frameworks, tais como: Flask, Django, Fast e outros;
