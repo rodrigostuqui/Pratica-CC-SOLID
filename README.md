@@ -1,17 +1,18 @@
 # Processo seletivo da Juridics 2022.1
 
 Bem-vindo ao exame técnico para o processo seletivo da Juridics.
-Em primeiro lugar, agradecemos pelo seu interesse e sua disponibilidade em realizar mais esta etapa do processo seletivo.
-Consideramos fundamental esta etapa do processo, pois permitirá que tanto você quanto a Juridics se conhecam um pouco melhor.
+Em primeiro lugar, agradecemos pelo seu interesse e disponibilidade para realizar mais esta etapa do processo seletivo.
+Esta etapa do processo permitirá que tanto você quanto a Juridics se conheçam um pouco melhor.
 
-Desde já, salientamos que este exame irá medir o seu nível de "se virômetro", ou seja, o quanto é capaz de encontrar
-soluções no dia a dia. Portanto, você está livre para pesquisar na Internet e até mesmo copiar códigos dos outros.
-Porém, apresente um código final legível, entendível e organizado, pois isso será usado como critério de avaliação. Se tiver conhecimentos sobre clean code, utilize na sua solução.
+Desde já, salientamos que este exame irá medir o seu nível de "se virômetro", ou seja, o quanto você é capaz de encontrar
+soluções no dia a dia. Portanto, sinta-se livre para pesquisar na Internet ou até mesmo copiar códigos dos outros.
+Entretanto, apresente um código final legível e organizado, pois isso será usado como critério de avaliação. 
+Se tiver conhecimentos sobre clean code aplique.
 
 Para realizar este exame, siga os seguintes procedimentos:
 - Clone este repositório;
 - Implemente cada questão na sua respectiva pasta;
-- Faça um zip da pasta de repositório e envie para o email charles@juridics.com.
+- Ao final, faça um zip da pasta deste repositório e envie para o email charles@juridics.com.
 
 ### Questão 1) Desenvolva em *html e css* a tela de exemplo
 Crie a tela abaixo utilizando somente HTML e CSS. Faça o mais parecido possível com o desenho.
@@ -32,12 +33,12 @@ Siga as orientações abaixo:
 - ENTRADA: ```{ "banco": 1, "agencia": 1738, "conta": 10789 }```
 - SAIDA: 201 ```{ "id": 1}```
 
-##### Créditar na conta corrente
+##### Creditar na conta corrente
 - URL: PUT /contas/\<id\>/credito
 - ENTRADA: ```{ "valor": 10.75 }```
 - SAIDA: 200
 
-##### Débitar na conta corrente
+##### Debitar na conta corrente
 - URL: PUT /contas/\<id\>/debito
 - ENTRADA: ```{ "valor": 9.75 }```
 - SAIDA: 200
