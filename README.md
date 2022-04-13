@@ -33,17 +33,17 @@ Siga as orientações abaixo:
 - SAIDA: 201 ```{ "id": 1}```
 
 ##### Créditar na conta corrente
-- URL: PUT /contas/<id>/credito
+- URL: PUT /contas/\<id\>/credito
 - ENTRADA: ```{ "valor": 10.75 }```
 - SAIDA: 200
 
 ##### Débitar na conta corrente
-- URL: PUT /contas/<id>/debito
+- URL: PUT /contas/\<id\>/debito
 - ENTRADA: ```{ "valor": 9.75 }```
 - SAIDA: 200
 
 ##### Consultar o saldo da conta corrente
-- URL: GET /contas/<id>/saldo
+- URL: GET /contas/\<id\>/saldo
 - SAIDA: 200 ```{ "valor": 1.0}```
   
 Atenção aos pontos abaixo: 
