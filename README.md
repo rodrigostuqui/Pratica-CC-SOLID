@@ -23,7 +23,7 @@ A sequência de Fibonacci é composta por uma sucessão de números descrita pel
 
 Você deve criar uma função em js para receber como entrada a quantidade de números que deverá ser devolvido da sequência e devolver como saída a sequência em si. Exemplo: entrada 3 e saída 0, 1, 1; entrada 5 e saída 0, 1, 1, 2, 3.
 
-### Questão 3) Desenvolva *em python* endpoints REST para gerir uma conta corrente
+### Questão 3) Desenvolva *em python* endpoints REST para gerir uma conta corrente  ([Resolvido](questao3/README.md))
 Neste exercício deve ser criado uma api REST para permtir realizar operações básicas de cadastro, debito, credito e saldo da conta corrente.
 
 Siga as orientações abaixo:
